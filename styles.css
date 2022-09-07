@@ -1,0 +1,97 @@
+body {
+  background: rgb(182,255,251);
+  background: linear-gradient(0deg, rgba(182,255,251,1) 0%, rgba(255,255,255,1) 92%);
+}
+
+.fixed-nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+  }
+  
+  .nav-links {
+    display:flex;
+    list-style: none;
+    margin-bottom: 0;
+  }
+  
+  a {
+    padding: 8px 10px;
+    font-size: 1.5rem;
+  }
+  
+  .fixed-nav a {
+    color: #1B9AAA;
+    text-decoration: underline dashed #FFD670 2px;
+  }
+  
+  .hero-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('images/heroImage.jpg');
+    background-size: cover;
+  }
+  
+  .hero-subtitle {
+    font-size: 1 rem;
+    color: #FAA916
+  }
+
+  .hero-title {
+    color: #7D1E4B;
+    font-size: 4.5rem;
+  }
+  
+  .hero-desc {
+    font-size: 2rem;
+  }
+  
+  .hero-text {
+    text-align: center;
+    color: rgb(22, 8, 8);
+  }
+  
+  .section-header {
+    text-align: center;
+  }
+  
+  .about-container {
+    display: flex;
+  }
+  
+  .about-text {
+  padding-left: 2rem;
+  }
+  
+  .about-container img {
+    width: 30%;
+    border-radius: 30%;
+  }
+  
+  #about {
+    padding: 2rem;
+  }
+  
+  .section-header {
+    color: #1B9AAA;
+  }
+  #contact {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .contact-link {
+    text-decoration: none;
+    display: block;
+  }
+
+  /* below is from lecture */
+  /* about-container img {
+    width: 25%;
+    border-radius: 50% ; */
