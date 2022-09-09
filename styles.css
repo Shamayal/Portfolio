@@ -1,6 +1,7 @@
 body {
-  background: rgb(182,255,251);
-  background: linear-gradient(0deg, rgba(182,255,251,1) 0%, rgba(255,255,255,1) 92%);
+  margin: 0;
+  background: rgb(182,251,255);
+  background: linear-gradient(0deg, rgb(182, 251, 255) 0%, rgba(255,255,255,1) 105%);
 }
 
 .fixed-nav {
@@ -9,56 +10,94 @@ body {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: white;
+    background-color: #BDA9D8;
     align-items: center;
   }
   
   .nav-links {
     display:flex;
     list-style: none;
-    margin-bottom: 0;
+  }
+
+  .mylogo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
   }
   
+  .social-icons {
+    text-align: center;
+  }
   a {
     padding: 8px 10px;
     font-size: 1.5rem;
   }
   
   .fixed-nav a {
-    color: #1B9AAA;
-    text-decoration: underline dashed #FFD670 2px;
+    color: #ffffff;
+    text-decoration: underline dashed #C9A1FF 0.8px;
   }
   
   .hero-section {
-    height: 100vh;
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('images/heroImage.jpg');
-    background-size: cover;
+    /* background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ), */
+    /* url("images/heroImage.jpg"); */
+    /*background-size: cover; */
   }
   
   .hero-subtitle {
-    font-size: 1 rem;
-    color: #FAA916
+    font-size: 1.7rem;
+    color: #2f4858;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .hero-title {
-    color: #7D1E4B;
-    font-size: 4.5rem;
+    color: #33658A;
+    font-size: 7rem;
+    font-family: 'Dancing Script', cursive;
   }
   
   .hero-desc {
     font-size: 2rem;
+    height: 2rem;
   }
   
   .hero-text {
     text-align: center;
-    color: rgb(22, 8, 8);
+    line-height: 20px;
   }
   
+  .resume-pdf {
+    font-size: 1.7rem;
+    color: #2f4858;
+    
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+
+  .link {
+    text-decoration: none;
+    color:pink;
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+
+
+
   .section-header {
     text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: #33658A;
+    font-size: 50px;
+    letter-spacing: 1.4px;
   }
   
   .about-container {
@@ -67,6 +106,19 @@ body {
   
   .about-text {
   padding-left: 2rem;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #2f4858;
+  font-size: 20px;
+  line-height: 25px;
+  }
+
+  .about-link {
+  font-family: 'Montserrat', sans-serif;
+  color: #2f4858;
+  font-size: 20px;
+  line-height: 25px;
   }
   
   .about-container img {
@@ -77,10 +129,29 @@ body {
   #about {
     padding: 2rem;
   }
-  
-  .section-header {
-    color: #1B9AAA;
+
+  .skills-container {
+    display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 20px;
   }
+
+  .skill {
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    
+  }
+
+  .skills-img {
+    height: 30px;
+  }
+
+
   #contact {
     padding: 2rem;
     text-align: center;
@@ -95,3 +166,57 @@ body {
   /* about-container img {
     width: 25%;
     border-radius: 50% ; */
+
+    .portfolio-container {
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    #portfolio {
+      padding: 2rem 6rem 2rem 6rem;
+      background-color: rgba(226, 218, 222, 0.5);
+    }
+    
+    .portfolio-item {
+      width: 40%;
+      text-align: center;
+      border: 1px #888888 solid;
+      border-radius: 25px;
+      box-shadow: 5px 10px;
+      box-shadow: 5px 8px #888888;
+      background-color: white;
+    }
+    
+    .portfolio-item h2 {
+      padding-top: 10px;
+    }
+    
+    .image-container img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+    .navbarPink {
+      background-color: #33658A;
+      transition: 0.3s;
+    }
+
+    /* need to make height 100% otherwise there is a space below the footer */
+/*html,
+body {
+  height: 100%;
+}*/
+
+footer {
+  text-align: center;
+  vertical-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #2f4858;
+  background-color: transparent;
+  font-size: 20px;
+  /*rgba(226, 218, 222, 0.75);
+} */
+
+.footer-text {
+  padding-top: 3px;
+} */
