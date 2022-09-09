@@ -16,3 +16,13 @@ var typed = new Typed('#typed', {
     loop: true,
     backSpeed: 50
   })
+
+var glide = new Glide('.glide', {
+  type: "carousel",
+  perView: 4,
+  gap: 1,
+  startAt: 0,
+  focusAt: 'center',
+})
+
+glide.mount()

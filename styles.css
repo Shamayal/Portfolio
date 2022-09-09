@@ -13,6 +13,7 @@ body {
     background-color: #674FA7;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
+    z-index: 1;
   }
   
   .nav-links {
@@ -205,6 +206,8 @@ body {
 
   .food-container {
     display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 
   .food-container img {
