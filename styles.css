@@ -66,6 +66,7 @@ body {
     font-size: 2rem;
     height: 2rem;
     color:#2f4858;
+    font-family: 'Montserrat', sans-serif;
   }
 
   .hero-text {
@@ -177,12 +178,12 @@ body {
     background-color: white;
     font-family: 'Montserrat', sans-serif;
     color: #2f4858;
-    font-size: 16px;
+    font-size: 17px;
     line-height: 25px;
   }
   
   .portfolio-item h2 {
-    padding-top: 10px;
+    padding-top:5px;
   }
 
   .portfolio-item a {
@@ -193,18 +194,45 @@ body {
   }
   
   .image-container img {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 60%;
+    max-height: 60%;
   }
 
   #mazedar {
     padding: 2rem;
   }
 
+
   #books {
     padding: 2rem;
   }
 
+  .book-container {
+    display: flex;
+  }
+
+  .book-text {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #2f4858;
+    font-size: 20px;
+    line-height: 25px;
+    }
+
+    .book-title {
+      border-radius: 10%;
+      color: #674FA7;
+    }
+
+    .book-subheading {
+      color:#33658A;
+      font-family: 'Oswald', sans-serif;
+      text-align: center;
+      font-size: 40px;
+      letter-spacing: 1px;
+    }
   #contact {
     padding: 2rem;
     text-align: center;
@@ -222,7 +250,7 @@ body {
 
     .navbarPink {
       background-color: #33658A;
-      transition: 0.3s;
+      transition: 0.8s;
     }
 
     /* need to make height 100% otherwise there is a space below the footer */
