@@ -133,6 +133,14 @@ body {
 		grid-gap: 20px;
   }
 
+  .photos-container {
+    display:grid;
+    justify-content: conter;
+		grid-template-columns: repeat(9, 1fr);
+		grid-gap: 10px;
+    text-align: center;
+  }
+
   .skill {
     width: -10vw;
     display: flex;
