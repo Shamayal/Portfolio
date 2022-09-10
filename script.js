@@ -20,7 +20,7 @@ var typed = new Typed('#typed', {
 var glide = new Glide('.glide', {
   type: "carousel",
   perView: 4,
-  gap: 1,
+  gap: 0,
   startAt: 0,
   focusAt: 'center',
 })
